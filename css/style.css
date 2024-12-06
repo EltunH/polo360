@@ -1,0 +1,266 @@
+header {
+    width: 100%;
+    min-height: 128px;
+    background: linear-gradient(#d5d5d5, #ffff, #ffff, #ffff, #ffff);
+    text-align: center;
+    padding: 37px 0 24px 0;
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+
+#logo img {
+    width: 40%;
+}
+
+ul {
+    padding: 22px 0 0 0;
+}
+
+ul li {
+    font: .7em Tahoma, sans-serif;
+    ;
+    padding: 0 8px 7px 8px;
+    color: #b7b7b7;
+}
+
+ul li a {
+    display: block;
+    font: bold .9rem Georgia, serif;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+main {
+    width: 100%;
+    background: url('../img/mainbg.jpg') repeat-x;
+    padding: 22px 0 0 0;
+}
+
+#slider {
+    height: 340px;
+    background: url('../img/pht.jpg') center / cover;
+    border-radius: 8px;
+    border: 1px solid #c6c6c6;
+}
+
+h1 {
+    font: bold 1.5rem Georgia, serif;
+    color: #000000;
+    text-align: center;
+    padding: 15px 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+.row {
+    padding: 22px 0;
+}
+
+.row::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.col {
+    padding: 11px 10px;
+}
+
+h2 {
+    font: bold 1.3em Georgia, serif;
+    color: #11719e;
+    text-transform: capitalize;
+}
+
+h6 {
+    font: .8em Helvetica, sans-serif;
+    color: #8c8c8c;
+}
+
+.col p {
+    font: .8rem/1.5 Helvetica, sans-serif;
+    color: #3e3e3e;
+}
+
+.col img {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    padding: 6px;
+    border-radius: 4px;
+    background: #f3f3f3;
+    margin: 18px 0;
+}
+
+.btn {
+    display: block;
+    width: 164px;
+    padding: 8px 14px;
+    margin: 20px 0 0 0;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.btn1 {
+    border: 1px solid #d8d8d8;
+    background: linear-gradient(to right, #e8e8e8, #f7f7f7, #e8e8e8, #eee);
+    font: .8em Helvetica, sans-serif;
+    color: #016999;
+    text-transform: capitalize;
+}
+
+.btn span {
+    float: right;
+}
+
+h3 {
+    font: 1.1rem Georgia, serif;
+    color: #444444;
+    text-transform: uppercase;
+    border-bottom: 1px dashed #e5e5e5;
+    padding: 0 0 6px 0;
+    margin: 0 0 10px 0;
+}
+
+.col .sz {
+    width: 18%;
+    border: none;
+    padding: 0;
+    margin: 5px 0 40px 0;
+    border-radius: 0;
+    background: initial;
+}
+
+h5 {
+    font: bold 1.1rem 'Gill Sans', sans-serif;
+    color: #444444;
+    border-bottom: 1px dashed #e5e5e5;
+    padding: 0 0 6px 0;
+    margin: 0 0 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    height: 33px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid #cfcfcf;
+}
+
+textarea {
+    height: initial;
+}
+
+.mrg {
+    margin: 9px 0 0 0;
+}
+
+.mrgBottom {
+    margin-bottom: 9px;
+}
+
+.btn2 {
+    border: 1px solid #004a80;
+    background: linear-gradient(to right, #366a9c, #3c78b6, #2f6294, #306193);
+    font: .8em Georgia, serif;
+    color: #fff;
+}
+
+.abtd {
+    overflow: auto;
+    border-bottom: 1px dashed #e5e5e5;
+    padding: 11px 0;
+}
+
+.col .abtd img {
+    width: 20%;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.text {
+    font: 1.7em/1.5 Helvetica, sans-serif;
+    color: #444;
+}
+
+footer {
+    width: 100%;
+    min-height: 183px;
+    background: #333333;
+    border-top: 10px solid #4c4c4c;
+    padding: 15px
+}
+
+.ftSpan {
+    font: .7rem Helvetica, sans-serif;
+    color: #999;
+}
+
+.ftrMenu {
+    padding: 0;
+    float: initial;
+}
+
+.ftrMenu li {
+    display: inline-block;
+    border: none;
+    padding: 0;
+}
+
+.ftrMenu li a {
+    font: .7rem Helvetica, sans-serif;
+    color: #999;
+    padding: 0 3px 0 0;
+    border-right: 1px solid #999;
+    text-transform: initial;
+}
+
+.ftrMenu li:last-child a {
+    border: none;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        text-align: initial;
+    }
+
+    #logo img {
+        width: 25%;
+    }
+
+    ul {
+        float: right;
+    }
+
+    ul li {
+        display: inline-block;
+        border-left: 1px dotted #d6d6d6;
+    }
+
+    .col {
+        width: 33%;
+        float: left;
+    }
+
+    .text {
+        font: .7em/0.5 Helvetica, sans-serif;
+    }
+
+    .ftr {
+        width: 66%;
+        float: left;
+        padding: 0 10px;
+    }
+    
+    .ftr1 {
+        width: 34%;
+        float: left;
+        padding: 0 10px;
+    }
+}
